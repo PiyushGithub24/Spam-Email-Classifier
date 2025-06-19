@@ -6,4 +6,5 @@ nltk
 wordcloud
 scikit-learn
 ipykernel
+flask
 -e .
