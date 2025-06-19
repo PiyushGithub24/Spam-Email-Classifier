@@ -1,3 +1,9 @@
 numpy
 pandas
-#-e .
+seaborn
+matplotlib
+nltk
+wordcloud
+scikit-learn
+ipykernel
+-e .
