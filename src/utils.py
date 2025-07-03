@@ -48,8 +48,8 @@ def evaluate_models(X_train, y_train,X_test,y_test,models):
             accuracy_score_list.append(accuracy_score_test)
             precision_score_list.append(precision_score_test)
 
-            performance_df=pd.DataFrame(list(zip(model_list, accuracy_score_list,precision_score_list)), columns=['Model Name', 'Accuracy Score','Precision Score']).sort_values(by=['Precision Score',"Accuracy Score"],ascending=False)
-            return performance_df
+        performance_df=pd.DataFrame(list(zip(model_list, accuracy_score_list,precision_score_list)), columns=['Model Name', 'Accuracy Score','Precision Score']).sort_values(by=['Precision Score',"Accuracy Score"],ascending=False)
+        return performance_df
 
     except Exception as e:
         raise CustomException(e, sys)
