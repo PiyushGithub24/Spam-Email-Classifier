@@ -59,6 +59,7 @@ class ModelTrainer:
 
             best_model_name = model_report.sort_values(by=["Accuracy Score", "Precision Score"], ascending=False).iloc[0]['Model Name']
 
+            print("best_model_name:",best_model_name)
             best_model = models[best_model_name]
 
             if best_model_score<0.6:
