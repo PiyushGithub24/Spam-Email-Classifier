@@ -1,5 +1,4 @@
 # utils.py is used for defining some common functions which is used in different module of the project
-
 import os
 import sys
 import pandas as pd

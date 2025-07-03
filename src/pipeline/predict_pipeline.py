@@ -22,6 +22,6 @@ class PredictPipeline:
         except Exception as e:
             raise CustomException(e,sys)
 
-if __name__=="__main__":   
-    pp=PredictPipeline()
-    print(pp.predict("Dear Students, This is a reminder that the registration for the upcoming semester closes on July 5th. Make sure to clear any outstanding dues and consult your advisor before submitting your final course selection. For any technical issues with the portal, please contact support@university.edu. Regards, Academic Affairs Office."))
+# if __name__=="__main__":   
+#     pp=PredictPipeline()
+#     print(pp.predict("Dear Students.You Won 3 Lakhs"))
