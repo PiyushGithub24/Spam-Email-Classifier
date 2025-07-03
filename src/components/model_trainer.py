@@ -51,7 +51,7 @@ class ModelTrainer:
 
             model_report:pd.DataFrame=evaluate_models(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,
                                             models=models)
-            print(model_report)
+            # print(model_report)
             ## To get best model accuracy score from Dataframe of evaluated models
             best_model_score = model_report.sort_values(by=["Precision Score", "Accuracy Score"], ascending=False).iloc[0]['Accuracy Score']
 
@@ -59,7 +59,7 @@ class ModelTrainer:
 
             best_model_name = model_report.sort_values(by=["Precision Score", "Accuracy Score"], ascending=False).iloc[0]['Model Name']
 
-            print("best_model_name:",best_model_name)
+            # print("best_model_name:",best_model_name)
             best_model = models[best_model_name]
 
             if best_model_score<0.6:
