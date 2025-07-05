@@ -10,6 +10,10 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+
 from sklearn.metrics import accuracy_score,precision_score
 
 from src.exception import CustomException
