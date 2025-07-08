@@ -34,21 +34,41 @@ Spam emails are not only annoying but also pose serious security threats. This p
 ## 📁 Folder Structure
 <pre> ```bash
 Spam-Email-Classifier/
-│
-├── static/ # CSS styling
-│ └── style.css
-│
-├── templates/ # HTML template
+├── artifacts/ # Serialized model and data files
+│ ├── data.csv
+│ ├── train.csv
+│ ├── test.csv
+│ ├── model.pkl
+│ └── tfidf_vectorizer.pkl
+
+├── notebook/ # Jupyter notebooks for EDA and experiments
+│ └── data/
+│ └── spam.csv
+│ └── spam ham emails detection.ipynb
+
+├── src/ # Source code for training pipeline
+│ └── components/
+│ ├── init.py
+│ ├── data_ingestion.py
+│ ├── data_transformation.py
+│ └── model_trainer.py
+
+├── pipeline/ # Pipeline handling and utilities
+│ ├── init.py
+│ ├── exception.py
+│ ├── logger.py
+│ └── utils.py
+
+├── templates/ # HTML templates for web UI
+│ ├── home.html
 │ └── index.html
-│
-├── model/ # Serialized model
-│ └── spam_model.pkl
-│
-├── utils.py # Text cleaning and preprocessing functions
-├── data_transformation.py# TF-IDF vectorization
-├── app.py # Flask app
+
+├── app.py # Flask application for web interface
 ├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── setup.py # Setup file for packaging
+├── .gitignore
+├── .python-version
+└── README.md
  ``` </pre>
 
 ---
@@ -98,7 +118,7 @@ Instantly see if it's classified as spam or not spam
 
 ### 🖼️ Screenshots
 ![image](https://github.com/user-attachments/assets/705f137e-3add-4e17-bad8-ce5398e704a7)
-![image](https://github.com/user-attachments/assets/d71c7945-b37f-49c5-87a9-95cf97a3ef29)
+![image](https://github.com/user-attachments/assets/957bf217-a4a6-43cc-9361-39188a9660e6)
 ![image](https://github.com/user-attachments/assets/45874a35-e1a3-4564-a09b-f7b117135aa4)
 
 
