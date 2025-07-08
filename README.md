@@ -1,4 +1,3 @@
-<H1>"End to end spam email classification project "</H1>
 # 📧 Spam Email Classifier
 
 A machine learning-based web application that detects whether a given email is **spam or not spam** using **Natural Language Processing (NLP)** and **Multinomial Naive Bayes**. Achieved **97.3% accuracy** and **100% precision**, and deployed using **Flask** and **Render**.
@@ -40,7 +39,7 @@ Spam emails are not only annoying but also pose serious security threats. This p
 ---
 
 ## 📁 Folder Structure
-
+<pre> ```bash
 Spam-Email-Classifier/
 │
 ├── static/ # CSS styling
@@ -57,7 +56,7 @@ Spam-Email-Classifier/
 ├── app.py # Flask app
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+ ``` </pre>
 
 ---
 
