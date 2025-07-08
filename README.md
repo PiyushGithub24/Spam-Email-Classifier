@@ -119,7 +119,8 @@ Instantly see if it's classified as spam or not spam
 ### 🖼️ Screenshots
 ![image](https://github.com/user-attachments/assets/705f137e-3add-4e17-bad8-ce5398e704a7)
 ![image](https://github.com/user-attachments/assets/957bf217-a4a6-43cc-9361-39188a9660e6)
-![image](https://github.com/user-attachments/assets/45874a35-e1a3-4564-a09b-f7b117135aa4)
+![image](https://github.com/user-attachments/assets/dd7005f7-33b6-4c18-ae7a-f0f15d74e78e)
+
 
 
 
