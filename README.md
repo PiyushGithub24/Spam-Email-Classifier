@@ -97,12 +97,9 @@ Instantly see if it's classified as spam or not spam
 ---
 
 ### 🖼️ Screenshots
-![App Homepage](![image](https://github.com/user-attachments/assets/8a892591-4467-45fd-8ffb-438fea8f07f8)
-)
-![App Homepage](![image](https://github.com/user-attachments/assets/3088fffd-13b3-431b-88c3-3bdd8595259f)
-)
-![App Homepage](![image](https://github.com/user-attachments/assets/24a439bb-7738-4461-8d9e-b4a84aab8005)
-)
+![image](https://github.com/user-attachments/assets/705f137e-3add-4e17-bad8-ce5398e704a7)
+![image](https://github.com/user-attachments/assets/d71c7945-b37f-49c5-87a9-95cf97a3ef29)
+![image](https://github.com/user-attachments/assets/45874a35-e1a3-4564-a09b-f7b117135aa4)
 
 
 
