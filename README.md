@@ -72,8 +72,54 @@ Spam-Email-Classifier/
 ## 🛠 Installation
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/PiyushGithub24/Spam-Email-Classifier.git
 cd Spam-Email-Classifier
+ ```
 
+---
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+ ```
+
+---
+
+### 3. Run the App
+```bash
+python app.py
+ ```
+Then open http://127.0.0.1:5000/ in your browser.
+
+---
+
+### 🧪 Usage
+Enter a sample email or message in the text area
+
+Click Predict
+
+Instantly see if it's classified as spam or not spam
+
+---
+
+### 🖼️ Screenshots
+![App Homepage](screenshots/home.png)
+
+---
+
+🙋‍♂️ Author
+Piyush Kumar
+📧 piyushrana3612@gmail.com
+🔗 GitHub
+🔗 LinkedIn
+
+---
+
+🌟 Acknowledgements
+- Scikit-learn
+- NLTK
+- Render
+- Flask
+
+---
