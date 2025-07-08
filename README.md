@@ -10,13 +10,6 @@ Spam emails are not only annoying but also pose serious security threats. This p
 
 ---
 
-## 🚀 Live Demo
-
-🔗 [View the App](https://spam-email-classifier.onrender.com)  
-*(Replace this link with your actual Render deployment URL)*
-
----
-
 ## 📊 Model Highlights
 
 - **Algorithm**: Multinomial Naive Bayes
@@ -104,15 +97,20 @@ Instantly see if it's classified as spam or not spam
 ---
 
 ### 🖼️ Screenshots
-![App Homepage](screenshots/home.png)
+![App Homepage](![image](https://github.com/user-attachments/assets/8a892591-4467-45fd-8ffb-438fea8f07f8)
+)
+![App Homepage](![image](https://github.com/user-attachments/assets/3088fffd-13b3-431b-88c3-3bdd8595259f)
+)
+![App Homepage](![image](https://github.com/user-attachments/assets/24a439bb-7738-4461-8d9e-b4a84aab8005)
+)
+
+
 
 ---
 
 🙋‍♂️ Author
-Piyush Kumar
-📧 piyushrana3612@gmail.com
-🔗 GitHub
-🔗 LinkedIn
+- Piyush Kumar
+- piyushrana3612@gmail.com
 
 ---
 
